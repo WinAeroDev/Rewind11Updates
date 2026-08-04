@@ -2,7 +2,7 @@
 
 **Windows Update — the way it used to look.**
 
-Rewind11 Updater is a faithful **Windows 7-style Windows Update** for your Windows 11 machine. Launch it straight from the **Control Panel**, and it checks for the latest [Rewind11](../../../rewind11) updates, downloads them, and installs them automatically — all wrapped in that classic, nostalgic Windows Update interface you remember.
+Rewind11 Updater is a faithful **Windows 7-style Windows Update** for your Windows 11 machine. Launch it straight from the **Control Panel**, and it checks for the latest [Rewind11](https://github.com/WinAeroDev/Rewind11) updates, downloads them, and installs them automatically — all wrapped in that classic, nostalgic Windows Update interface you remember.
 
 > Think of it as the companion that keeps your Rewind11 setup fresh, without you ever having to hunt down a new release.
 
@@ -23,7 +23,7 @@ Rewind11 Updater is a faithful **Windows 7-style Windows Update** for your Windo
 ## 📋 Requirements
 
 - Windows 11 (25H2 Build 26200 or earlier)
-- [Rewind11](../../../rewind11) installed
+- [Rewind11](https://github.com/WinAeroDev/Rewind11) installed
 - Administrator privileges
 - An internet connection
 
@@ -31,14 +31,15 @@ Rewind11 Updater is a faithful **Windows 7-style Windows Update** for your Windo
 
 ## 🚀 Installation
 
-1. **Download** the latest release from the [Releases](../../releases) page (or clone this repo).
-2. **Run the installer** (or `RUN_ME.cmd`) as administrator to register Rewind11 Updater in the Control Panel.
-3. Open **Control Panel** and click **Windows Update** (now powered by Rewind11 Updater).
-4. Hit **Check for updates** — the rest is automatic.
+1. **Download** [`Rewind11Updater.zip`](https://github.com/WinAeroDev/Rewind11/raw/main/Rewind11Updater.zip) (or clone the repo — see below).
+2. **Extract** the ZIP to a folder of your choice.
+3. **Run the installer** (or `RUN_ME.cmd`) as administrator to register Rewind11 Updater in the Control Panel.
+4. Open **Control Panel** and click **Windows Update** (now powered by Rewind11 Updater).
+5. Hit **Check for updates** — the rest is automatic.
 
 ```bash
-git clone https://github.com/yourusername/rewind11-updater.git
-cd rewind11-updater
+git clone https://github.com/WinAeroDev/Rewind11.git
+cd Rewind11
 ```
 
 ---
@@ -73,7 +74,7 @@ Pull requests, bug reports, and feature suggestions are welcome! Feel free to op
 
 ## 🔗 Related
 
-- [Rewind11](../../../rewind11) — the one-click toolkit that turns Windows 11 into Windows 7.
+- [Rewind11](https://github.com/WinAeroDev/Rewind11) — the one-click toolkit that turns Windows 11 into Windows 7.
 
 ---
 
